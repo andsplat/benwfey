@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: about | andsplat, a blog by Ben W. Fey
