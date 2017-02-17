@@ -1,2 +1,3 @@
 name: andsplat
 markdown: kramdown
+permalink: /:title
