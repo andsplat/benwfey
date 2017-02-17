@@ -6,7 +6,7 @@ layout: feed
 
 	<title>and splat, a blog by Ben W. Fey</title>
 	<link href="http://andsplat.github.io/atom.xml" rel="self"/>
-	<link href="http://andsplat.github.io/"/>
+	<link href="http://andsplat.github.io"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://andsplat.github.io/</id>
 	<author>
