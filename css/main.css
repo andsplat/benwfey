@@ -48,3 +48,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/*  Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+html {font-size: 52.5%;}
+}
+/*  Mobile Layout: 320px. */
+@media only screen and (max-width: 479px) {
+html {font-size: 46%;}
+}
