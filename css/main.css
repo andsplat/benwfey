@@ -51,9 +51,9 @@ ul.posts li {
 
 /*  Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-html {font-size: 52.5%;}
+html {font-size: 150%;}
 }
 /*  Mobile Layout: 320px. */
 @media only screen and (max-width: 479px) {
-html {font-size: 46%;}
+html {font-size: 200%;}
 }
