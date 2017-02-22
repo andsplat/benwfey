@@ -1,8 +1,8 @@
 body {
-    margin: 60px auto;
     width: 100%;
 }
 .content {
+    margin: 60px auto;
     max-width: 750px;
     padding: 0 5%;
 }
