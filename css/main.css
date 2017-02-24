@@ -144,6 +144,10 @@ p, ul {
     line-height: 1.6;
     color: #333;
 }
+.site-logo img {
+	width: 47.5px;
+}
+
 }
 
 /*  Mobile Layout: 320px. */
@@ -171,5 +175,8 @@ p, ul {
     font-size: 1.1em;
     line-height: 1.6;
     color: #333;
+}
+.site-logo img {
+	width: 47.5px;
 }
 }
