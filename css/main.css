@@ -19,14 +19,17 @@ nav ul, footer ul {
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-left: 15px;
 }
 nav {
 	float: right;
+}
+footer ul li {
+    display: inline;
+    margin-right: 15px;
 }
 a {
     text-decoration: underline;
@@ -93,14 +96,20 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.posts {
+}
+.post-item {
+	margin-bottom: 2em;
+}
+.post-title {
+	font-size: 2em;
+	margin-bottom: 0.25em;
+}
+.post-date {
+}
+.post {
 }
 
-ul.posts li {
-    list-style: none;
-}
 
 
 /*  Wide Layout - Large Images: 1150px. */

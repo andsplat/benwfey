@@ -3,13 +3,19 @@ layout: default
 title: andsplat, a blog by Ben W. Fey
 ---
 <div class="blurb">
-	<h1>Hi there, I'm andsplat!</h1>
-	<p>I'm working on figuring out how to blog from GitHub. <a href="/about">about andsplat</a></p>
+	
 </div><!-- /.blurb -->
 
-	<ul class="posts">
+	<div class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  <div class="post-item">
+		<div class="post-title">
+		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</div>
+		<div class="post-date">
+		{{ post.date | date_to_string }}
+		</div>
+		</div>
 	  {% endfor %}
-	</ul>
+	</div>
