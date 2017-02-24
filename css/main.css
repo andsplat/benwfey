@@ -9,6 +9,12 @@ body {
     max-width: 700px;
     padding: 0 5%;
 }
+.site-nav {
+	margin: 0 auto;
+	max-width: 700px;
+	background-color: #e6e6e6;
+	padding: 25px 5%;
+}
 nav ul, footer ul {
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
@@ -19,12 +25,15 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav {
+	float: right;
+}
 a {
-    text-decoration: none;
-    color: #999;
+    text-decoration: underline;
+    color: #0364AC;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Domine', serif;
@@ -58,6 +67,26 @@ p, ul {
 li {
 	padding-bottom: 0.5em;
 }
+
+.site-header {
+	background-color: #e6e6e6;
+}
+
+.site-title {
+	display: inline-block;
+}
+.site-title a{
+	color: #333;
+	text-decoration: none;
+}
+.site-title a:hover{
+	color: #0364AC;
+}
+.site-logo img {
+	width: 95px;
+}
+
+
 
 footer {
     border-top: 1px solid #d5d5d5;
