@@ -13,7 +13,7 @@ body {
 	margin: 0 auto;
 	max-width: 700px;
 	background-color: #e6e6e6;
-	padding: 25px 5%;
+	padding: 22px 5% 20px;
 }
 nav ul, footer ul {
     font-family: 'Open Sans', sans-serif;
@@ -23,7 +23,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 15px;
 }
 nav {
 	float: right;
