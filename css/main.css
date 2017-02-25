@@ -112,6 +112,9 @@ footer {
 .post {
 }
 
+#disqus_thread{
+    width: 100%;
+}
 
 .img-responsive {
 	max-width: 100%;
