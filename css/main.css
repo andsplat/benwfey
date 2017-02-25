@@ -100,9 +100,11 @@ footer {
 }
 .post-item {
 	margin-bottom: 2em;
+	background-color: #e6e6e6;
+	padding: 2em;
 }
 .post-title {
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-bottom: 0.25em;
 }
 .post-date {

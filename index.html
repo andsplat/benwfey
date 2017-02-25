@@ -15,6 +15,10 @@ title: andsplat, a blog by Ben W. Fey
 		<div class="post-date">
 		{{ post.date | date_to_string }}
 		</div>
+		<div>
+		{{ post.excerpt }} <a href="{{ post.url }}" title="{{ post.title }}">Read more...</a>
+		</div>
 		</div>
 	  {% endfor %}
 	</div>
+	
