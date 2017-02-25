@@ -73,6 +73,7 @@ li {
 
 .site-header {
 	background-color: #e6e6e6;
+	border-bottom: 1px solid #ccc;
 }
 
 .site-title {
@@ -102,6 +103,7 @@ footer {
 	margin-bottom: 2em;
 	background-color: #e6e6e6;
 	padding: 2em;
+	border: 1px solid #ccc;
 }
 .post-title {
 	font-size: 1.8em;
@@ -112,7 +114,16 @@ footer {
 .post {
 }
 
+.comments {
+	padding: 1.5em;
+	border: 1px solid #ccc;
+	text-align: center;
+	background-color: #e6e6e6;
+}
 
+#disqus_thread {
+	margin: 3em 0;
+}
 
 .img-responsive {
 	max-width: 100%;
