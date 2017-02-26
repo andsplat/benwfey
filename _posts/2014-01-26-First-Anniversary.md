@@ -7,7 +7,7 @@ comments: true
 
 I normally don’t write about such personal things, but as I look back on the past year, there is so much to be thankful for that I wanted to share at least a few thoughts.
 
-![wedding photo](/images/posts/2014-01-26-First-Anniversary/smile.jpg){:class="img-responsive"}
+![wedding photo](/images/posts/2014-01-26-First-Anniversary/smile.jpg){:class="img-wide"}
 
 On January 26, 2013, I married my beautiful bride Austin. Needless to say, it was a great day. I’m so thankful to have Austin in my life. She is so loving, caring, and supportive. Having her in my life is truly a blessing. It’s been a wonderful adventure as we figure out married life together and I look forward to many more adventures.
 
