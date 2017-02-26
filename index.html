@@ -16,7 +16,7 @@ title: andsplat, a blog by Ben W. Fey
 		{{ post.date | date_to_string }}
 		</div>
 		<div>
-		{{ post.excerpt }} <a href="{{ post.url }}" title="{{ post.title }}">Read more...</a>
+		<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }} <a href="{{ post.url }}" title="{{ post.title }}">Read more...</a></p>
 		</div>
 		</div>
 	  {% endfor %}

@@ -1,5 +1,33 @@
 {% if page.comments %}
 <div id="disqus_thread">
-  <a href="#" onclick="disqus();return false;"><div class="comments">Load Comments</div></a> 
+  <a href="#" onclick="disqus();return false;"><div class="comment-button">Load Comments</div></a> 
 </div>
+
+<script type="text/javascript">
+
+var disqus_shortname = "andsplat";
+
+var disqus_url = "{{ site.url}}{{ page.url }}";
+
+var disqus_identifier = "{{ site.url}}{{ page.id }}"; 
+
+var disqus_loaded = false;
+
+function disqus() {
+
+  if (!disqus_loaded)  {
+    
+    disqus_loaded = true;
+    
+    var e = document.createElement("script");
+    e.type = "text/javascript";
+    e.async = true;
+    e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (document.getElementsByTagName("head")[0] ||
+     document.getElementsByTagName("body")[0])
+    .appendChild(e);
+  }
+} 
+
+</script>
 {% endif %}

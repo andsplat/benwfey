@@ -1,8 +1,16 @@
+
+
+
+
+
 html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    color: #333;
 }
 .content {
     margin: 3em auto;
@@ -16,7 +24,6 @@ body {
 	padding: 1.375em 5% 1.25em;
 }
 nav ul, footer ul {
-    font-family: 'Open Sans', sans-serif;
     padding: 0;
     list-style: none;
 }
@@ -62,10 +69,8 @@ h6 {
 }
 
 p, ul {
-	font-family: 'Open Sans', sans-serif;
-    font-size: 1.3em;
-    line-height: 1.6;
-    color: #333;
+	font-size: 1.3em;
+  
 }
 li {
 	padding-bottom: 0.5em;
@@ -73,7 +78,6 @@ li {
 
 .site-header {
 	background-color: #e6e6e6;
-	border-bottom: 1px solid #ccc;
 }
 
 .site-title {
@@ -91,11 +95,15 @@ li {
 }
 
 
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.site-footer {
+	padding: 1.375em 5% 1.25em;
 }
+footer {
+    border-top: 1px solid #ccc;
+	margin: 0 auto;
+	max-width: 700px;
+}
+
 
 .posts {
 }
@@ -103,18 +111,21 @@ footer {
 	margin-bottom: 2em;
 	background-color: #e6e6e6;
 	padding: 2em;
-	border: 1px solid #ccc;
 }
 .post-title {
 	font-size: 1.8em;
 	margin-bottom: 0.25em;
 }
 .post-date {
+	font-size: 1em;
 }
 .post {
 }
 
 .comments {
+
+}
+.comment-button {
 	padding: 1.5em;
 	border: 1px solid #ccc;
 	text-align: center;
