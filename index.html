@@ -1,10 +1,10 @@
 ---
 layout: default
-title: andsplat, a blog by Ben W. Fey
+title: Home
 ---
 	<div class="posts">
 
-	  {% for post in site.posts %}
+	  {% for post in paginator.posts %}
 	  <div class="post-item">
 		<div class="post-title">
 		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -19,3 +19,18 @@ title: andsplat, a blog by Ben W. Fey
 	  {% endfor %}
 	</div>
 	
+	<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous"></span>
+  {% endif %}
+  <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next "></span>
+  {% endif %}
+</div>
+

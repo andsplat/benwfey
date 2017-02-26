@@ -104,7 +104,7 @@ li {
 
 
 .site-footer {
-	padding: 1.375em 5% 1.25em;
+
 }
 footer {
     border-top: 4px solid #ccc;
@@ -132,6 +132,11 @@ footer {
 	font-size: 1em;
 }
 .post {
+}
+
+.pagination {
+	text-align: center;
+	font-size: 1em;
 }
 
 .comments {

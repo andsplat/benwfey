@@ -1,3 +1,4 @@
 name: andsplat
 markdown: kramdown
 permalink: /:title
+paginate: 10
