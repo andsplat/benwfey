@@ -5,7 +5,7 @@ This site is using a custom theme that I am designing and building (present tens
 
 ##License
 
-The following directories and their contents are Copyright &copy; Ben W. Fey. You may not use anything (text, images, PDFs, etc.) in these directories without my permission:
+The following directories and their contents are Copyright &copy; Ben W. Fey, unless otherwise noted. You may not use anything (text, images, PDFs, etc.) in these directories without my permission:
 
 * _Posts/
 * images/
