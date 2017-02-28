@@ -2,7 +2,6 @@
 layout: post
 title: "First Anniversary!"
 categories: life
-comments: true
 ---
 
 I normally don’t write about such personal things, but as I look back on the past year, there is so much to be thankful for that I wanted to share at least a few thoughts.

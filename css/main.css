@@ -13,7 +13,7 @@ body {
     color: #333;
 }
 .content {
-    margin: 3em auto;
+    margin: 2.5em auto;
     max-width: 700px;
     padding: 0 5%;
 }
@@ -33,6 +33,7 @@ nav ul li {
 }
 nav {
 	float: right;
+	margin: 3em 0 0 0;
 }
 footer ul li {
     display: inline;
@@ -48,7 +49,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Domine', serif;
     line-height: 1.2;
-	margin: 0.90em 0 0.25em 0;
+	margin: 0.80em 0 0.25em 0;
 }
 h1 {
 	font-size: 3.157em;
@@ -70,8 +71,6 @@ h6 {
 }
 .border-header {
 	border-bottom: 4px solid #ccc;
-	background-color: #e6e6e6;
-	padding: 1.5em;
 }
 
 
@@ -104,7 +103,7 @@ li {
 
 
 .site-footer {
-
+	padding: 0 5%;
 }
 footer {
     border-top: 4px solid #ccc;
@@ -121,8 +120,12 @@ footer {
 }
 .post-item {
 	margin-bottom: 2em;
-	background-color: #e6e6e6;
-	padding: 2em;
+	padding-bottom: 2em;
+	border-bottom: 1px dashed #aaa;
+}
+.post-item:last-child {
+	border-style: none;
+	margin-bottom: 0;
 }
 .post-title {
 	font-size: 1.8em;
@@ -139,18 +142,12 @@ footer {
 	font-size: 1em;
 }
 
-.comments {
 
-}
-.comment-button {
+.button {
 	padding: 1.5em;
 	border: 1px solid #ccc;
 	text-align: center;
 	background-color: #e6e6e6;
-}
-
-#disqus_thread {
-	margin: 3em 0;
 }
 
 .img-responsive {
@@ -210,7 +207,9 @@ p, ul {
 .site-logo img {
 	width: 47.5px;
 }
-
+nav {
+	margin: 1em 0 0 0;
+}
 }
 
 /*  Mobile Layout: 320px. */
@@ -241,5 +240,8 @@ p, ul {
 }
 .site-logo img {
 	width: 47.5px;
+}
+nav {
+	margin: 1em 0 0 0;
 }
 }
