@@ -72,7 +72,10 @@ h6 {
 .border-header {
 	border-bottom: 4px solid #ccc;
 }
-
+.twitter {
+	text-align: center;
+	margin: 2.5em;
+}
 
 p, ul {
 	font-size: 1.3em;
@@ -115,7 +118,9 @@ footer {
 .no-margin {
 	margin: 0;
 }
-
+.sm-margin {
+	margin: 0 0 .5em 0;
+}
 .posts {
 }
 .post-item {
