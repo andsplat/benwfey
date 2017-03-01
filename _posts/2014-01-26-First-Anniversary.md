@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "First Anniversary!"
+title: First Anniversary!
 categories: life
+published: true
 ---
 
 I normally don’t write about such personal things, but as I look back on the past year, there is so much to be thankful for that I wanted to share at least a few thoughts.
@@ -29,4 +30,4 @@ There is so much one could say when looking back on the past year of marriage. T
 
 Austin and I put together a wedding photo album as Christmas presents for our parents and grandparents. You can check out the [PDF copy of the photo album](http://andwhatabout.com/wp-content/uploads/2014/01/Ben-and-Austin-Fey_wedding_Jan-26-2013.pdf) (15 MB) if you would like to see more photographs from our wedding.
 
-Photography by [Laura Merricks Photography](http://lauramerricksphotography.com/)
+*Photography by [Laura Merricks Photography](http://lauramerricksphotography.com/)*
