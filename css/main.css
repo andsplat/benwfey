@@ -79,7 +79,7 @@ h6 {
 	padding: 3em 0 0 0;
 }
 
-p, ul {
+p, ul, ol {
 	font-size: 1.3em;
 	margin: 0 0 1.25em 0;
 }
@@ -121,13 +121,14 @@ footer {
 }
 .post-item {
 	margin-bottom: 2em;
-	padding-bottom: 2em;
-	border-bottom: 1px dashed #aaa;
+	padding: 2em;
+
+	background-color: #e6e6e6;
 }
-.post-item:last-child {
+/*.post-item:last-child {
 	border-style: none;
 	margin-bottom: 0;
-}
+}*/
 .post-title {
 	font-size: 2em;
 	margin-bottom: 0.15em;
@@ -162,8 +163,8 @@ footer {
 /*  Wide Layout - Large Images: 1150px. */
 @media only screen and (min-width: 1150px) {
 .img-wide {
-	width: 140%;
-	margin: 0 -20%;
+	width: 150%;
+	margin: 0 -25%;
 }
 }
 
