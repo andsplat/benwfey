@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Anniversary!
-imagelocation: /images/posts/2014-01-26-First-Anniversary
+imagelocation: /images/posts/2014-01-26-first-anniversary
 published: true
 image: chucks.jpg
 ---
