@@ -130,14 +130,14 @@ footer {
 }
 .post-title {
 	font-size: 2em;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.15em;
 }
 .post-date {
 	font-size: 1em;
 	margin-bottom: 0.75em;
 }
 .post-image {
-	margin-bottom: 0.75em;
+	margin: 1.25em 0 0.75em 0;
 }
 .post {
 	margin-bottom: 2.5em;
