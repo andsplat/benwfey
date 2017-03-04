@@ -87,7 +87,7 @@ li {
 	padding-bottom: 0.5em;
 }
 .site-header {
-	
+	border-bottom: 5px solid #ccc;	
 }
 .site-title {
 	display: inline-block;
