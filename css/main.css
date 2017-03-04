@@ -92,11 +92,11 @@ li {
 .site-title {
 	display: inline-block;
 }
-.site-title a{
+.site-title a {
 	color: #333;
 	text-decoration: none;
 }
-.site-title a:hover{
+.site-title a:hover {
 	color: #0364AC;
 }
 .site-logo img {
@@ -158,6 +158,9 @@ footer {
 }
 .img-wide {
 	width: 100%;
+}
+.readmore {
+	display: inline-block;
 }
 
 /*  Wide Layout - Large Images: 1150px. */

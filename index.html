@@ -20,7 +20,7 @@ title: Home | andsplat, a blog by Ben W. Fey
 		<div>{{ post.special_var }}</div>
 		{% endif %}
 		<div>
-		<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }} <a href="{{ post.url }}" title="{{ post.title }}">Read more...</a></p>
+		<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }} <span class="readmore"><a href="{{ post.url }}" title="{{ post.title }}">Read more...</a></span></p>
 		</div>
 		</div>
 	  {% endfor %}
