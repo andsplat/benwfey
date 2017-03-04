@@ -71,6 +71,7 @@ h6 {
 .border-header {
 	border-bottom: 5px solid #ccc;
 	margin-bottom: 0.75em;
+	padding: 0 0 0.5em 0;
 }
 .twitter {
 	border-top: 1px dashed #aaa;	
