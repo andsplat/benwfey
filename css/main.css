@@ -69,7 +69,8 @@ h6 {
 	font-size: 1em;
 }
 .border-header {
-	border-bottom: 4px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	margin-bottom: 0.75em;
 }
 .twitter {
 	border-top: 1px dashed #aaa;	
@@ -102,11 +103,12 @@ li {
 }
 .site-footer {
 	padding: 0 5%;
+	border-top: 5px solid #ccc;
 }
 footer {
 	margin: 0 auto;
 	max-width: 700px;
-	padding-top: 0.75em;
+	padding-top: 1em;
 }
 .no-margin {
 	margin: 0;
@@ -131,6 +133,10 @@ footer {
 }
 .post-date {
 	font-size: 1em;
+	margin-bottom: 0.75em;
+}
+.post-image {
+	margin-bottom: 0.75em;
 }
 .post {
 	margin-bottom: 2.5em;

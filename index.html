@@ -12,6 +12,13 @@ title: Home
 		<div class="post-date">
 		{{ post.date | date_to_string }}
 		</div>
+		{% if post.image %}
+		<div class="post-image">
+		<a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.imagelocation }}/{{ post.image }}" alt="post photo" class="img-responsive"></a>
+		</div>
+		{% else %}
+		<div>{{ post.special_var }}</div>
+		{% endif %}
 		<div>
 		<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }} <a href="{{ post.url }}" title="{{ post.title }}">Read more...</a></p>
 		</div>
