@@ -156,6 +156,15 @@ footer {
 .img-responsive {
 	max-width: 100%;
 }
+.img-border {
+	max-width: 100%;
+	border: 1px solid #aaa;
+}
+
+.center {
+	text-align: center;
+}
+
 .img-wide {
 	width: 100%;
 }
