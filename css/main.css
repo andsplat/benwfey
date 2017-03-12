@@ -171,6 +171,12 @@ footer {
 .readmore {
 	display: inline-block;
 }
+.social-icons {
+	width: 40px;
+	margin-left: 0.5em;
+	float: right;
+	margin-bottom: 1em;
+}
 
 /*  Wide Layout - Large Images: 1150px. */
 @media only screen and (min-width: 1150px) {
