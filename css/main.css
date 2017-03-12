@@ -78,7 +78,6 @@ h6 {
 	text-align: center;
 	padding: 3em 0 0 0;
 }
-
 p, ul, ol {
 	font-size: 1.3em;
 	margin: 0 0 1.25em 0;
@@ -160,11 +159,9 @@ footer {
 	max-width: 100%;
 	border: 1px solid #aaa;
 }
-
 .center {
 	text-align: center;
 }
-
 .img-wide {
 	width: 100%;
 }
