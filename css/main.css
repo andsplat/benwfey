@@ -6,12 +6,11 @@ body {
     font-size: 100%;
     line-height: 1.6;
     color: #333;
-    background-color: #e6e6e6;
 }
 .content {
     margin: 0 auto;
     max-width: 700px;
-    padding: 3em 5%;
+    padding: 2em 5%;
 }
 .background {
 	background-color: #ffffff;
@@ -19,7 +18,7 @@ body {
 .site-nav {
 	margin: 0 auto;
 	max-width: 700px;
-	padding: 1.375em 5% 1.25em;
+	padding: 1.375em 5% 0;
 }
 nav ul, footer ul {
     padding: 0;
@@ -27,11 +26,15 @@ nav ul, footer ul {
 }
 nav ul li {
     display: inline;
-    margin-left: 1em;
+    margin-right: 1em;
 }
 nav {
-	float: right;
-	margin: 3em 0 0 0;
+	margin: 1em 0 0 0;
+}
+.info {
+	background-color: #e6e6e6;
+	padding: 2em 2em 0 2em;
+	margin-bottom: 2em;
 }
 footer ul li {
     display: inline;
@@ -39,39 +42,42 @@ footer ul li {
 }
 a {
     text-decoration: underline;
-    color: #0364AC;
+    color: #333333;
 }
 a:hover {
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Domine', serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
 	margin: 0.80em 0 0.25em 0;
+	font-weight: normal;
 }
 h1 {
-	font-size: 3.157em;
+	font-size: 2.2em;
 	margin: 0 0 0.25em 0;
 }
 h2 {
-	font-size: 2.369em;
+	font-size: 2.0em;
 }
 h3 {
-	font-size: 1.777em;
+	font-size: 1.8em;
 }
 h4 {
-	font-size: 1.333em;
+	font-size: 1.6em;
 }
 h5 {
-	font-size: 1.1665em;
+	font-size: 1.4em;
 }
 h6 {
-	font-size: 1em;
+	font-size: 1.2em;
 }
 .border-header {
-	border-bottom: 5px solid #ccc;
-	margin-bottom: 0.75em;
+	margin-bottom: 2em;
 	padding: 0 0 0.5em 0;
+	background-color: #222222;
+	padding: 2em;
+	color: #eeeeee;
 }
 .twitter {
 	border-top: 1px dashed #aaa;	
@@ -85,8 +91,22 @@ p, ul, ol {
 li {
 	padding-bottom: 0.5em;
 }
+.about ul {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.about ul li {
+    display: inline;
+    margin-right: .9em;
+    list-style-type: none;
+}
+.about img {
+	margin-bottom: .9em;
+}
+
 .site-header {
-	border-bottom: 5px solid #ccc;	
+	border-bottom: 1px dashed #aaaaaa;
 }
 .site-title {
 	display: inline-block;
@@ -99,16 +119,16 @@ li {
 	color: #0364AC;
 }
 .site-logo img {
-	width: 95px;
+	width: 75px;
 }
 .site-footer {
 	padding: 0 5%;
-	border-top: 5px solid #ccc;
+	border-top: 1px dashed #aaaaaa;
 }
 footer {
 	margin: 0 auto;
 	max-width: 700px;
-	padding-top: 1em;
+	padding-top: 1.5em;
 }
 .no-margin {
 	margin: 0;
@@ -120,24 +140,27 @@ footer {
 }
 .post-item {
 	margin-bottom: 2em;
-	padding: 2em;
-
-	background-color: #e6e6e6;
+	background-color: #222222;
 }
-/*.post-item:last-child {
+.post-item:last-child {
 	border-style: none;
 	margin-bottom: 0;
-}*/
+}
 .post-title {
 	font-size: 2em;
-	margin-bottom: 0.15em;
+	padding: 1em;
+}
+.post-title a {
+	color: #eeeeee;
 }
 .post-date {
 	font-size: 1em;
 	margin-bottom: 0.75em;
 }
 .post-image {
-	margin: 1.25em 0 0.75em 0;
+	margin: 0 0 0.75em 0;
+	line-height: 0;
+	border: 1px solid #222;
 }
 .post {
 	margin-bottom: 2.5em;
@@ -174,7 +197,9 @@ footer {
 	float: right;
 	margin-bottom: 1em;
 }
-
+.icon{
+	width: 80px;
+}
 /*  Wide Layout - Large Images: 1150px. */
 @media only screen and (min-width: 1150px) {
 .img-wide {
@@ -199,16 +224,16 @@ footer {
 /*  Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 h1 {
-	font-size: 3em;
+	font-size: 2.0em;
 }
 h2 {
-	font-size: 2.5em;
+	font-size: 1.8em;
 }
 h3 {
-	font-size: 2em;
+	font-size: 1.6em;
 }
 h4 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 h5 {
 	font-size: 1.2em;
@@ -223,7 +248,7 @@ p, ul, ol {
     color: #333;
 }
 .site-logo img {
-	width: 47.5px;
+	width: 50px;
 }
 nav {
 	margin: 1em 0 0 0;
@@ -233,16 +258,16 @@ nav {
 /*  Mobile Layout: 320px. */
 @media only screen and (max-width: 479px) {
 h1 {
-	font-size: 2.75em;
+	font-size: 2.0em;
 }
 h2 {
-	font-size: 2.25em;
+	font-size: 1.8em;
 }
 h3 {
-	font-size: 1.75em;
+	font-size: 1.6em;
 }
 h4 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 h5 {
 	font-size: 1.2em;
@@ -257,7 +282,7 @@ p, ul, ol {
     color: #333;
 }
 .site-logo img {
-	width: 47.5px;
+	width: 50px;
 }
 nav {
 	margin: 1em 0 0 0;
