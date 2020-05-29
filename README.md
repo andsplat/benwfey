@@ -1,5 +1,5 @@
 # benwfey.com
-This is the source code for http://benwfey.com, the portfolio of Ben W. Fey.
+This is the source code for https://benwfey.com, the portfolio of Ben W. Fey.
 
 This site is using a custom theme that I am designing and building (present tense because I will probably always be redesigning something), is powered by Jekyll, and hosted using GitHub Pages.
 
