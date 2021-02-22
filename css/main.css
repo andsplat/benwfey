@@ -200,6 +200,7 @@ footer {
 }
 .icon{
 	width: 75px;
+	border: 1px solid #000000;
 }
 /*  Wide Layout - Large Images: 1150px. */
 @media only screen and (min-width: 1150px) {
